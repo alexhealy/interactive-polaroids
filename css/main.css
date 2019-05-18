@@ -29,24 +29,29 @@ html {
   bottom: 10%;
 }
 
-.polaroid:first-child {
+.polaroid:nth-child(1) {
   left: 450px;
   top: 250px;
   transform: rotate(-15deg);
   z-index: 1;
 }
 
-.polaroid:last-child(3) {
-  left: 40%;
-  top: 100px;
-  transform: rotate(33deg);
+.polaroid:nth-child(3) {
+  left: 650px;
+  top: 275px;
+  transform: rotate(25deg);
   z-index: 2;
 }
 
-.polaroid:hover {
-  position: absolute;
-  z-index: 4;
-  transform: rotate(0deg);
+.polaroid:nth-child(2) {
+  left: 550px;
+  top: 350px;
+  transform: rotate(10deg);
+  z-index: 3;
+}
 
-  box-shadow: 1px 10px 30px rgba(0, 0, 0, .7);
+.polaroid:hover {
+  transform: rotate(0deg);
+  z-index: 4;
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 1);
 }
