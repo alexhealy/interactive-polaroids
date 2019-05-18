@@ -38,7 +38,7 @@ html {
 }
 
 .polaroid:last-child {
-  left: 40%;
+  left: 4;
   top: 100px;
   transform: rotate(33deg);
   z-index: 2;
